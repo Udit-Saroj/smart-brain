@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Particles from 'react-tsparticles';
+//import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import Navigation from './Components/Navigation/Navigation';
 import Signin from './Components/Signin/Signin';
@@ -137,7 +137,7 @@ class App extends Component {
   };
     return (
       <div className="App">
-        <Particles className='particles'
+        {/*<Particles className='particles'
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -213,7 +213,7 @@ class App extends Component {
             },
             detectRetina: true,
           }}
-        />
+        />*/}
         <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
         {this.state.route==='home' 
           ?<div>
