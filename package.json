@@ -24,7 +24,6 @@
     "semver": "^6.3.0",
     "serve": "^13.0.2",
     "tachyons": "^4.12.0",
-    "tsparticles": "^2.0.6",
     "tsparticles-engine": "^2.0.6",
     "web-vitals": "^2.1.4"
   },
