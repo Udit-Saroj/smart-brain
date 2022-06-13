@@ -123,7 +123,7 @@ class App extends Component {
   }
 
   render() {
-    const particlesInit = (main) => {
+    const particlesInit = async(main) => {
     //console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
