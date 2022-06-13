@@ -2,9 +2,9 @@
   "name": "smart-brain",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-    "node":"16.15.1",
-    "npm":"8.11.0"
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.11.0"
   },
   "dependencies": {
     "@ampproject/remapping": "^2.2.0",
