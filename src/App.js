@@ -136,8 +136,8 @@ class App extends Component {
     //console.log(container);
   //};
     return (
-      /*<div className="App">
-        <Particles className='particles'
+      <div className="App">
+        {/*<Particles className='particles'
           id="tsparticles"
           init={particlesInit}
           loaded={particlesLoaded}
@@ -213,7 +213,7 @@ class App extends Component {
             },
             detectRetina: true,
           }}
-        />*/
+        />*/}
           <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
           {this.state.route==='home' 
           ?<div>
