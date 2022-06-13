@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+//import Particles from 'react-tsparticles';
+//import { loadFull } from 'tsparticles';
 import Navigation from './Components/Navigation/Navigation';
 import Signin from './Components/Signin/Signin';
 import Register from './Components/Register/Register';
@@ -123,13 +123,13 @@ class App extends Component {
   }
 
   render() {
-    const particlesInit = async(main) => {
+    const particlesInit = (main) => {
     //console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(main);
+   //await loadFull(main);
   };
 
   const particlesLoaded = (container) => {
