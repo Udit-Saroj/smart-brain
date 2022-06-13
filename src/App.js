@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Particles from 'react-tsparticles';
-import {loadFull} from 'react-tsparticles';
+import { loadFull } from 'react-tsparticles';
 import Navigation from './Components/Navigation/Navigation';
 import Signin from './Components/Signin/Signin';
 import Register from './Components/Register/Register';
@@ -214,8 +214,8 @@ class App extends Component {
             detectRetina: true,
           }}
         />
-          <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
-          {this.state.route==='home' 
+        <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
+        {this.state.route==='home' 
           ?<div>
               <Logo />
               <Rank 
